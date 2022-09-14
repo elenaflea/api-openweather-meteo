@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-image: url(https://cdn.glitch.com/f4ac3fe0-033e-426a-80bd-45939b88e4a9%2Fback17.jpg?v=1629279164386);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font-family: 'Georama', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #7DEDFF;
+    text-align: center;
+    font-weight: 300;
+    
+}
+::placeholder {
+    color: #fff;
+}
+:-ms-input-placeholder {
+    color: #fff;
+}
+::-ms-input-placeholder {
+    color: #fff;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+}
+input:hover {
+    background-color: rgba(1, 34, 78, 0.4);
+    cursor: pointer;
+}
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#city {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 40px 0px 15px 0px;
+  
+}
+#date {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#temperature {
+    color: #FFF;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0, 20, 50, 0.7);
+    margin: 10px 0px 0px 0px;
+}
+#feelsLike {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgb(0, 20, 50);
+}
+#conditions,  #variation {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0px 0px 5px rgb(0, 20, 50);
+}
+.link {
+    display: flex;
+    justify-content: center;
+}
+.fb{
+    margin: 5px 5px 30px 5px;
+}
